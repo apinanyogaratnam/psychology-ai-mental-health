@@ -27,6 +27,20 @@ export default function Home() {
           <p>Explore the role of artificial intelligence in detecting mental health conditions, providing therapy, treatment, and personalized interventions.</p>
         </div>
 
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '100%',
+            width: '100%',
+            padding: '0',
+            margin: '0',
+          }}
+        >
+        <Image src="/image.png" alt="AI & Mental Health" width={300} height={300} />
+        </div>
+
         <div className={styles.grid}>
           <a
             href="#detection"
@@ -97,7 +111,7 @@ Early detection of mental health issues using AI can have significant benefits f
 However, there are also potential risks associated with the use of AI for mental health detection. Privacy concerns are a significant issue, as the use of personal data, such as social media activity, can raise questions about data protection and consent. Additionally, there is a risk of misdiagnosis or overdiagnosis, as AI algorithms may not always accurately identify mental health conditions.
 
 In conclusion, AI has enormous potential for detecting mental health conditions in the early stages. By analyzing data such as speech patterns, facial expressions, and social media activity, AI algorithms can identify signs of mental health issues even before individuals are aware of their condition. Early detection can lead to more effective treatment, improved outcomes, and reduced stigma associated with mental health conditions. However, privacy concerns and the risk of misdiagnosis must be carefully considered when using AI for mental health detection.</p>
-        
+
         </section>
 
         <section id="detection" className={styles.section}>
@@ -144,6 +158,11 @@ Nunamaker Jr., J. F. (2020). Machine Learning and Social Media Analytics for Ear
           <br />
           <text>
 Rosenquist, R. (2019). Machine Learning and Big Data Analytics in Psychiatry: Towards Clinical Applications. Current Opinion in Psychiatry, 32(5), 385-391.
+          </text>
+          <br />
+          <br />
+          <text>
+          Midjourney. (2022). Midjourney (Version 5) [Computer software]. GitHub. https://github.com/midjourney/transformers
           </text>
         </section>
       </main>
